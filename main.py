@@ -5,3 +5,7 @@ def banker_roulette():
 
     # create empty list to store names
     names = []
+
+    for _ in range(num_participants):
+        name = input("Enter a name: ")
+        names.append(name)
